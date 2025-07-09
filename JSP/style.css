@@ -1,0 +1,58 @@
+/* 일반적인 링크 상태(a:link), 방문한 링크 상태(a:visited), 활성 상태(a:active)에 대해 설정 */
+/* 링크에 밑줄을 제거하여 깔끔하게 표시 */
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+/* 링크에 마우스를 올렸을 때(a:hover) 밑줄을 표시하고, 색상을 빨간색으로 변경 */
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+/* 테이블 요소들(TABLE, TD, TR, TH)의 기본 글꼴 크기를 9pt로 설정 */
+TABLE, TD, TR, TH {
+    font-size: 9pt;
+}
+
+/* p 태그의 기본 글꼴 크기를 9pt로 설정 */
+p {
+    font-size: 9pt;
+}
+
+/* #div_form 요소의 텍스트를 가운데 정렬하고, 상단 마진을 320px로 설정하여 아래쪽에 배치 */
+#div_form {
+    text-align: center;
+    margin-top: 320px;
+}
+
+/* #td_1_form 요소의 텍스트를 가운데 정렬 */
+#td_1_form {
+    text-align: center;
+}
+
+/* #tr_form 요소에 Arial, sans-serif 글꼴을 적용 */
+#tr_form {
+    font-family: Arial, sans-serif;
+}
+
+/* #div_pro 요소의 텍스트를 가운데 정렬하고, 상단 마진을 520px로 설정하여 아래쪽에 배치 */
+#div_proc {
+    text-align: center;
+    margin-top: 520px;
+}
+
+/* #div_check 요소의 텍스트를 가운데 정렬하고, 절대 위치를 설정하여 화면 내 지정된 위치에 배치 */
+#div_check {
+    position: absolute; 
+    text-align: center; 
+   	left:530px;
+    top: 530px; 
+}
+/* 버튼 컨테이너에 상단 여백을 추가하여 버튼 간 간격을 조정 */
+#button-container{
+	margin-top: 20px;
+	
+}
+
+
